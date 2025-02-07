@@ -1,0 +1,23 @@
+.success,
+.error,
+.none {
+  padding: 0.75rem;
+  margin: 1rem 0;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+
+.success {
+  border-color: rgb(154, 207, 139);
+  background-color: rgb(188, 238, 174);
+}
+
+.error {
+  border-color: rgb(207, 139, 139);
+  background-color: rgb(238, 122, 122);
+}
+
+.blank {
+  opacity: 0;
+}

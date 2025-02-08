@@ -4,7 +4,6 @@ import Filter from './components/Filter'
 import Form from './components/Form'
 import Numbers from './components/Numbers'
 import Notification from './components/Notification.jsx'
-import axios from 'axios'
 
 import personService from './services/persons.js'
 

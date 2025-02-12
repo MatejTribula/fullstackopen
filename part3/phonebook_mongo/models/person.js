@@ -17,11 +17,17 @@ mongoose.connect(url)
 
 
 const personSchema = new mongoose.Schema({
-    name: String,
+    name: {
+        type: String,
+        minLength: 3,
+        required: true
+    },
     number: {
         type: String,
-        minLength: 5,
-        required: true
+        minLength: 8,
+        required: true,
+        unique: true,
+        match: /^[0-9]{2,3}-[0-9]{6,8}$/
     }
 })
 
